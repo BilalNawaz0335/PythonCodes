@@ -1,0 +1,8 @@
+x=int(input("PLEASE ENTER ANY NUMBER FROM 0 TO 35.\n"))
+if x>=0 and x<=9:
+    print(x)
+else:
+    x=x-10 # finding the difference in order to print letters.
+    x=chr(x+65) 
+    # typecasted the x into character. 65 is the ascii of A 
+    print(x)
