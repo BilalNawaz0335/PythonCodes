@@ -1,0 +1,12 @@
+x=0
+arr=[2, 12, 5, 7, 11, 13]
+while x<len(arr):
+    count=0
+    y=2
+    while y<=arr[x]:
+        if arr[x]%y==0:
+            count=count+1
+        y=y+1
+    if count==1:
+        print(arr[x],"IS PRME\n")
+    x=x+1
