@@ -1,0 +1,9 @@
+# printing the even and odd numbers.
+arr=[2, 12, 5, 7, 11, 13]
+x=0
+print("SIZE OF THE ARRAY: ",len(arr))
+for x in arr:
+    if x%2==0:
+        print(x," IS EVEN.\n")
+    else:
+        print(x,"IS ODD\n")
