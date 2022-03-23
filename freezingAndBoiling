@@ -1,0 +1,22 @@
+# QUESTION NUM 20:
+# STATEMENT:The following table lists the freezing and boiling points of several substances. Write a program that asks the user to enter a
+# temperature, and then shows all the substances that will freeze at that temperature and all that will boil at that temperature. For
+# example, if the user enters -20 the program should report that water will freeze and oxygen will boil at that temperature.
+
+temperature=int(input("ENTER TEMPERATURE: \n"))
+if temperature <= -173:
+    print("Ethyl Alchol Will Be Freezing at this temperature.",end='\n')
+if temperature <= -38:
+    print("Mercury Will Be Freezing at this temperature.",end='\n')
+if temperature <= -362:
+    print("Oxygen Will be freezing at this temperature.",end='\n')
+if temperature <= 32:
+    print("Water Will be freezing at this temperature.",end='\n')
+if temperature >=172:
+     print("Ethyl Alchol Will Be Boiling at this temperature.",end='\n')
+if temperature>=676:
+    print("Mercury Will Be Boiling  at this temperature.",end='\n')
+if temperature>=-306:
+    print("Oxygen Will be Boiling at this temperature.",end='\n')
+if temperature>=212:
+    print("Water Will be freezing at this temperature.",end='\n')
