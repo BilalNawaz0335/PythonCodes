@@ -1,0 +1,11 @@
+# if else practrice task1.
+# Question statement: Write a program that asks the user to enter two numbers. The program should use the conditional operator to determine which
+#number is the smaller and which is the larger.
+x=int(input("ENTER FIRST NUMBER: \n"))
+y=int(input("ENTER SECOND NUMBER: \n"))
+if x>y:
+    print("NUMBER 1 IS GREATER THAN NUMBER 2.\n")
+elif x==y:
+    print("NUMBER 1 IS EQUAL TO NUMBER 2.\n")
+else:
+    print("NUMBER 2 IS GREATER THAN NUMBER 1.\n")
