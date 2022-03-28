@@ -1,0 +1,12 @@
+x=int(input("ENTER NUMBER:"))
+even=0
+odd=0
+while x!=0:
+    temp=x%10
+    if temp%2==0:
+        even=even+1
+    else:
+        odd=odd+1
+    x=x//10
+print("EVEN DIGITS: ",even,end="\n")
+print("ODD DIGITS: ",odd,"\n")
