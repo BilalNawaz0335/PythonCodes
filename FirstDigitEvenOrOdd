@@ -1,0 +1,16 @@
+x=int(input("ENTER NUMBER:"))
+even=0
+odd=0
+while x!=0:
+    temp=x%10
+    if temp%2==0:
+        flag=True
+        even=even+1
+    else:
+        flag=False
+        odd=odd+1
+    x=x//10
+if flag==True:
+    print("the first digit is even.")
+else:
+    print("the first digit is odd.")
