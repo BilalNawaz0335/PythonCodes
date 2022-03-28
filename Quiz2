@@ -1,0 +1,13 @@
+var1=var2=0
+f=False
+for i in range(111,1000):
+    var1=i
+    f=False
+    while var1!=0:
+        var2=var1%10
+        if var2%2==0:
+            f=True
+            break
+        var1=var1//10
+    if f==False:
+        print(i,end=' ')
